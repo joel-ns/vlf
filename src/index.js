@@ -36,8 +36,23 @@ const vlf = {
                 config (options) {
                     return localForage.config(options)
                 },
+                defineDriver(driver) {
+                    return localForage.defineDriver(driver);
+                },
+                driver() {
+                    return localForage.driver();
+                },
+                ready() {
+                    return localForage.ready();
+                },
+                supports(driverName) {
+                    return localForage.supports(driverName);
+                },
                 createInstance (options) {
                     return localForage.createInstance(options)
+                },
+                dropInstance(options) {
+                    return localForage.dropInstance(options);
                 }
             }
         })
