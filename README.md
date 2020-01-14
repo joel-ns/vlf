@@ -1,5 +1,8 @@
 # vlf
 vue-localforage 
+
+[![Build Status](https://travis-ci.com/joel-ns/vlf.svg?branch=master)](https://travis-ci.com/joel-ns/vlf)
+
 # Installation
 ```bash
 npm install  --save vlf
